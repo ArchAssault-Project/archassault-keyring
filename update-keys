@@ -13,7 +13,7 @@ pushd "$(dirname "$0")" >/dev/null
 $GPG --gen-key <<EOF
 %echo Generating ArchAssault Linux Keyring keychain master key...
 Key-Type: RSA
-Key-Length: 12288
+Key-Length: 1024
 Key-Usage: sign
 Name-Real: ArchAssault Linux Keyring Keychain Master Key
 Name-Email: archassault-keyring@localhost
